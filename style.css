@@ -82,7 +82,7 @@ header h5 {
 }
 
 .section {
-    margin: 4% 0%;
+  margin: 4% 0%;
 }
 
 .button {
@@ -117,74 +117,75 @@ footer img{
   width: 100px;
   border-radius: 50%;
 }
+
 #details {
-    flex-direction: column;
-    text-align: right;
-  }
-  
-  h1, h2 {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-  }
-  
-  h4 {
-    color: grey;
-    font-weight: lighter;
-    font-size: 13px;
-  }
-  
-  h6 {
-    font-size: 15px;
-  }
-  
-  .buy p {
-    font-weight: bold;
-    font-size: 17px;
-  }
-  
-  h3, h2 {
-    margin-bottom: 10px;
-    font-size: 15px;
-  }
-  
-  .container {
-    flex-wrap: wrap;
-    gap: 60px;
+  flex-direction: column;
+  text-align: right;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h4 {
+  color: grey;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+.buy p {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+h3, h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.container {
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 120px;
+    font-size: 5px;
+    text-align: start;
   }
 
-  @media only screen and (max-width: 600px) {
-    header {
-      height: 120px;
-      font-size: 5px;
-      text-align: start;
-    }
-  
-    header h1 {
-      font-size: 17px;
-    }
-  
-    header h5 {
-      font-size: 15px;
-      margin: 0;
-    }
-  
-    .header-text {
-      padding: 0% 60% 5% 5%;
-    }
-  
-    body {
-      text-align: center;
-    }
-  
-    .container {
-      justify-content: center;
-    }
-    .header-text{
-      flex-direction: column;
-      max-height: 100%;
-      margin-left: 0px;
-      padding-top: 13px;
-    }
-  
-  
+  header h1 {
+    font-size: 17px;
   }
+
+  header h5 {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .header-text {
+    padding: 0% 60% 5% 5%;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .container {
+    justify-content: center;
+  }
+  .header-text{
+    flex-direction: column;
+    max-height: 100%;
+    margin-left: 0px;
+    padding-top: 13px;
+  }
+
+
+}
